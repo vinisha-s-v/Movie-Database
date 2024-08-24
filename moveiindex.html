@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="moviestyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Search Movies</h2>
+
+        <div class="header">
+            <input type="text" class="search-bar" name="" id="movieName" placeholder="Search Movies...">
+            <select  id="cast-selection" style="background:transparent;">
+                <option value="">Cast</option>
+                <option value="MohanLal">MohanLal</option>
+                <option value="Mammootty">Mamooty</option>
+                <option value="Manju warrior">Manju warrior</option>
+                <option value="Shobhana">Shobhana</option>
+                <option value="Dileep">Dileep</option>
+                <option value="vijay">vijay</option>
+                <option value="suriya">suriya</option>
+                <option value="Jayaram">Jayaram</option>
+                <option value="Tovino Thomas">Tovino Thomas</option>
+                <option value="Jayasuriya">Jayasuriya</option>
+               
+                <option value="Dhanush">Dhanush</option>
+               
+                <option value="Prithviraj Sukumaran">prthiviraj</option>
+                <option value="Dulquer Salmaan">Dulquer Salmaan</option>
+                <option value="Nivin Pauly">Nivin Pauly</option>
+                
+            </select>
+            
+            <button type="button" id="srch-btn"> Search</button>
+
+        </div>
+       
+    </div>
+    <div  id="loading" style="display: none;">Loading...</div>
+
+    <div id="result"></div>
+   
+    <div id="selectedMovie">
+        
+        <div id="movieContent" ></div>
+        <div id="movieImage" ></div>
+        
+    </div>
+    <div id="movieTrailer"></div>
+
+
+    <script src="movie.js"></script>
+</body>
+</html>
